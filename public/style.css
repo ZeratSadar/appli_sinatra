@@ -1,0 +1,134 @@
+@font-face { 
+	font-family: fastaction;
+    src: url('font/fastaction/fastaction.eot') format('embedded-opentype'),
+         url('font/fastaction/fastaction.woff') format('woff'),
+         url('font/fastaction/fastaction.ttf') format('truetype'),
+         url('font/fastaction/fastaction.svg') format('svg');
+}
+@font-face { 
+	font-family: gravity;
+    src: url('font/gravity/gravity.eot') format('embedded-opentype'),
+         url('font/gravity/gravity.woff') format('woff'),
+         url('font/gravity/gravity.ttf') format('truetype'),
+         url('font/gravity/gravity.svg') format('svg');
+}
+html, body{
+	width:100%;
+}
+body{
+	margin:0;
+	padding:0;
+	background-image:url(img/fond.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	font-family: gravity,Arial,sans-serif;
+}
+#wrapper{
+	width: 80%;
+	min-width: 900px;
+	margin:auto;
+}
+h4{
+	font-family: fastaction,Arial,sans-serif;
+	font-size:20px;
+}
+header{
+	width:100%;
+	height:160px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#headctr{
+	width:80%;
+	height:160px;
+	margin:auto;
+	line-height:160px;
+}
+.headbl{
+	width:50%;
+	height:100%;
+	display:inline-block;
+	vertical-align:middle;
+}
+#blocfl{
+	float:left;
+	width:250px;
+	height:140px;
+	left:0;
+}
+#blocfr{
+	float:right;
+	width:30px;
+	height:40px;
+	right:0px;
+}
+#blocfr:hover{
+	width:35px;
+	height:45px;
+	margin-right:-2.5px;
+	margin-top:2.5px;  
+}
+#blocfl img{
+	width:100%;
+	height:100%;
+}
+#blocfr img{
+	width:100%;
+	height:100%;
+}
+#content{
+	width:100%;
+}
+footer{
+	width:100%;
+	height:50px;
+}
+#ctrfoot{
+	width:85%;
+	margin:auto;
+}
+#copy{
+	width:50%;
+	color:white;
+	font-size:12px;
+	padding-top:20px;
+	float:left;
+	margin-left:-3.5%;  
+} 
+#copy p{
+	width:300px;
+	margin:auto;
+}
+#brrs{
+	width:50%;
+	float:right;
+	margin-right:-3.5%;
+}
+#rs{
+	width:300px;
+	height:50px;
+	margin:auto;
+}
+.icrs{
+	width:40px;
+	height:40px;
+	display:inline-block;
+	float:right;
+	margin-left:20px;
+	list-style-type:none;
+}
+.icrs img{
+	width:100%;
+	height:100%;
+}
+section{
+	width:100%;
+	margin-top:35px;
+}
+#sep{
+	width:95%;
+	height:2px;
+	margin:auto; 
+	background-color:#FFF;
+}

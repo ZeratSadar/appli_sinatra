@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!-- Tout ecrire en premier --> 
+<html>
+    <head>
+            <meta charset="utf-8"/>
+            <title></title>
+            <link rel="shortcut icon" type="image/x-icon" href="">
+            <link rel="stylesheet" type="text/css" href="style.css">
+    </head> 
+    <body>
+	<div id="wrapper">
+	<header>
+        <div id="headctr">
+        <div id="blocfl" class="headbl">
+            <img src="img/logo.png">
+        </div>
+        <a href="inscription"><div id="blocfr" class="headbl">
+            <img src="img/icone.png">
+        </div></a>
+        </div>
+	</header>
+	<div id="content">
+		<%=yield %>
+	</div>
+	<footer>
+		<div id="ctrfoot">
+        <section id="bb">
+        <div id="sep"></div>
+        </section>
+        <div id="copy">
+            <p>2015 Page-Dungeon-Defender © Droits Réservés</p>
+        </div>
+        <div id="brrs">
+        	<div id="rs">
+               <li class="icrs"><a href="http://www.facebook.com/DungeonDefenders"><img src="img/rs/facebook.png" alt="fb" /></a></li>
+               <li class="icrs"><a href="http://www.youtube.com/user/DunDefOfficial"><img src="img/rs/youtube.png" alt="yt" /></a></li>
+               <li class="icrs"><a href="http://twitter.com/TrendyEnt"><img src="img/rs/twitter.png" alt="tw" /></a></li>
+            </div>
+        </div>
+    </footer>
+	</div>
+    </div>
+</body>
+</html>

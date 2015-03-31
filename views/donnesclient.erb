@@ -1,0 +1,29 @@
+<!DOCTYPE html> <!-- Tout ecrire en premier --> 
+<html>
+    <head>
+            <meta charset="utf-8"/>
+            <title></title>
+            <link rel="shortcut icon" type="image/x-icon" href="">
+            <link rel="stylesheet" type="text/css" href="styleins.css">
+            <link rel="stylesheet" type="text/css" href="styledon.css">
+    </head> 
+    <section>
+    	<div id="centre">
+    		<div id="fleft" class="blc">
+    		<h4>Votre inscription à bien été enregistré :</h4><!-- A ecrire en premier --> 
+
+<p>Vôtre Nom est : <%=params[:nom]%></p><!-- A ecrire en premier --> 
+<p>Vôtre Prénom est : <%=params[:prenom]%></p><!-- A ecrire en premier --> 
+<p>Vôtre Adresse : <%=params[:adresse]%>, <%=params[:cp]%> <%=params[:ville]%></p>
+<p>Vôtre Pays : <span><%=params[:pays]%></span></p>
+<p>Bien maintenant que tu t'es inscrit, nous allons pouvoir venir chez toi, durant ton sommeil, pour récupérer certains de tes organes avec des outils non stériles (autant te filer un staphylocoque doré par la même occasion), pour ensuite les revendre sur le marché noir. Mouahaha !!<br></p><p>Ps : David Hasselhoff te remercis !!</p><br>
+<a href="/"><p id="retour">Revenir à l'acceuil !</p></a>
+			</div>
+			<div id="fright" class="blc">
+				<div id="dh">
+					<img src="img/dh.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+</html>
